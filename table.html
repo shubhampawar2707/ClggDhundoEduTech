@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>list of universities</title>
+</head>
+
+<style>
+    body {
+        padding: 0px;
+        margin: 0;
+        font-family: Nunito, sans-serif;
+    }
+
+  
+.table-wrapper {
+
+    overflow-y: scroll;
+    overflow-x:scroll;
+    height: fit-content;
+    max-height: 66.4vh;
+    
+    margin-top: 22px;
+        
+    margin: 15px;
+    padding-bottom: 20px;
+    
+}
+   table{
+     min-width: max-content;
+     border-collapse: separate;
+     border-spacing: 0px;
+   }
+
+    table {
+        position: sticky;
+        
+        border-collapse: collapse;
+        text-align: center;
+        width: 800px;
+        height: 200px;
+        margin-left: 25%;
+        border: 1px solid #bdc3c7;
+        box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+    }
+    
+    tr {
+        transition: all .2s ease-in;
+        cursor: pointer;
+    }
+    
+    th,
+    td {
+        padding: 12px;
+     
+        padding-top: 14px;
+        padding-bottom: 10px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+    }
+   
+    #header {
+        background-color: #0eb582;
+        color: #fff;
+    }
+    
+    h1 {
+        font-weight: 600;
+        text-align: center;
+        background-color: #0eb582;
+        color: #fff;
+        padding: 10px 0px;
+    }
+    
+    tr:hover {
+        background-color: #56d7b0;
+        transform: scale(1.02);
+        box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+    }
+    
+    @media only screen and (max-width: 768px) {
+        table {
+            width: 90%;
+        }
+    }
+</style>
+
+<body>
+
+    <h1>College Dhundo</h1>
+    
+    
+
+    <table>
+<tr>
+        <th>No:</th>
+        <th>University</th>
+        <th>Contact</th>
+        <th>Location</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Technical University of Munich</td>
+        <td>  <button onclick="window.location.href='https://tum.de/';">
+        Click here 
+        </button>
+        </td>
+        <td>Germany</td>
+      </tr>
+      <tr class="active-row">
+        <td>2</td>
+        <td>RWTH Aachen University</td>
+        <td><button onclick="window.location.href='https://rwth-aachen.de/';">
+            Click here 
+            </button></td>
+        <td>Germany</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Karlsruhe Institute of Technology</td>
+        <td><button onclick="window.location.href='https://kit.edu/';">
+          Click here 
+          </button></td>
+        <td>Germany</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>Technical University of Berlin</td>
+        <td><button onclick="window.location.href='https://iu.org/';">
+          Click here 
+          </button></td></td>
+        <td>Germany</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>University of Stanford</td>
+        <td><button onclick="window.location.href='https://stanford.edu/';">
+          Click here 
+          </button></td></td>
+        <td>U.S.A</td>
+      </tr>
+      <tr>
+        <td>6</td>
+        <td>Carnegie Mellon University</td>
+        <td><button onclick="window.location.href='https://cmu.edu/';">
+          Click here 
+          </button></td></td>
+        <td>U.S.A</td>
+      </tr>
+      <tr>
+        <td>7</td>
+        <td>Harvard University</td>
+        <td><button onclick="window.location.href='https://harvard.edu/';">
+          Click here 
+          </button></td></td>
+        <td>U.S.A</td>
+      </tr>
+      <tr>
+        <td>8</td>
+        <td>Princeton University</td>
+        <td><button onclick="window.location.href='https://princeton.edu/';">
+          Click here 
+          </button></td></td>
+        <td>U.S.A</td>
+      </tr>
+      <tr>
+        <td>9</td>
+        <td>Massachusetts Institute of Technology</td>
+        <td><button onclick="window.location.href='https://mit.edu/';">
+          Click here 
+          </button></td></td>
+        <td>U.S.A</td>
+      </tr>
+      <tr>
+        <td>10</td>
+        <td>University of Oxford</td>
+        <td><button onclick="window.location.href='https://ox.ac.uk/';">
+          Click here 
+          </button></td></td>
+        <td>United kingdom</td>
+      </tr>
+      <tr>
+        <td>11</td>
+        <td>University of Cambridge</td>
+        <td><button onclick="window.location.href='https://cam.ac.uk/';">
+          Click here 
+          </button></td></td>
+        <td>United kingdom</td>
+      </tr>
+      <tr>
+        <tr>
+          <td>12</td>
+          <td>Imperial College London</td>
+          <td><button onclick="window.location.href='https://imperial.ac.uk/';">
+            Click here 
+            </button></td></td>
+          <td>United kingdom</td>
+        </tr>
+        <tr>
+          <tr>
+            <td>13</td>
+            <td>UCL College of London</td>
+            <td><button onclick="window.location.href='https://ucl.ac.uk/';">
+              Click here 
+              </button></td></td>
+            <td>United kingdom</td>
+          </tr>
+          <tr>
+            <tr>
+              <td>14</td>
+              <td>University of Edinburgh</td>
+              <td><button onclick="window.location.href='https://ed.ac.uk/';">
+                Click here 
+                </button></td></td>
+              <td>United kingdom</td>
+            </tr>
+            <tr>
+              <tr>
+                <td>15</td>
+                <td>University of Tokyo</td>
+                <td><button onclick="window.location.href='https://u-tokyo.ac.jp/';">
+                  Click here 
+                  </button></td></td>
+                <td>Japan</td>
+              </tr>
+              <tr>
+                <tr>
+                  <td>16</td>
+                  <td>KAIST-Korea Advanced Institute of Science and Technology</td>
+                  <td><button onclick="window.location.href='https://kaist.ac.kr/';">
+                    Click here 
+                    </button></td></td>
+                  <td>South Korea</td>
+                </tr>
+                <tr>
+                  <tr>
+                    <td>17</td>
+                    <td>Seoul National University</td>
+                    <td><button onclick="window.location.href='https://en.snu.ac.kr/';">
+                      Click here 
+                      </button></td></td>
+                    <td>South Korea</td>
+                  </tr>
+                  <tr>
+                    <tr>
+                      <td>18</td>
+                      <td>POSTECH-Pohang University of Science and Technology</td>
+                      <td><button onclick="window.location.href='https://international.postech.ac.kr/';">
+                        Click here 
+                        </button></td></td>
+                      <td>South Korea</td>
+                    </tr>
+                    <tr>
+                      <tr>
+                        <td>19</td>
+                        <td>SNJB's College of Engineering</td>
+                        <td><button onclick="window.location.href='http://www.snjb.org//';">
+                          Click here 
+                          </button></td></td>
+                        <td>India</td>
+                      </tr>
+                      <tr>
+      
+    </table>
+
+    <section class="footer">
+      
+   </div>
+
+   <div class="credit"> created by <span>Rishu Sugandhi</span> | <span>Kimya Joshi</span> | <span>Shrutika Jadhav</span> | <span>Shubham Pawar</span>  | <span>Sahil Barve</span> | <span>Rohan Chitodkar</span> | all rights reserved! </div>
+ 
+ <style>.footer .credit {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    font-size: 1.3rem;
+    text-transform: capitalize;
+    color: #444;
+    border-top: 0.1rem solid #0eb582;
+  }
+  
+  .footer .credit span {
+    color: #0eb582;}
+   </style>
+ </section>
+</body>
+</html>
